@@ -1,5 +1,5 @@
 //
-//  Model.swift
+//  Animation.swift
 //  SpringAnimation
 //
 //  Created by Alisa Ts on 24.11.2021.
@@ -13,7 +13,13 @@ struct Animation {
     let delay: Float
     
     var descriptionAnimation: String {
-        "Preset: \(preset) \ncurve: \(curve) \nforce: \(String(format: "%.2f", force)) \nduration: \(String(format: "%.2f", duration)) \ndelay: \(String(format: "%.2f", delay))"
+    """
+        Preset: \(preset)
+        curve: \(curve)
+        force: \(String(format: "%.2f", force))
+        duration: \(String(format: "%.2f", duration))
+        delay: \(String(format: "%.2f", delay))
+    """
     }
     
     static func getRandomAnimation() -> Animation {

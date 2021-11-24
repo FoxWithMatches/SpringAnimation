@@ -12,4 +12,6 @@ class DataManager {
     
     let animations = Spring.AnimationPreset.allCases
     let animationsCurves = Spring.AnimationCurve.allCases
+    
+    private init() {}
 }

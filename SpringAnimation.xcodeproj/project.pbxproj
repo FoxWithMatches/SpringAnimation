@@ -15,7 +15,7 @@
 		EA8D0597274DFFD80000648A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8D0596274DFFD80000648A /* Assets.xcassets */; };
 		EA8D059A274DFFD80000648A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8D0598274DFFD80000648A /* LaunchScreen.storyboard */; };
 		EA8D05A2274E14D10000648A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D05A1274E14D10000648A /* DataManager.swift */; };
-		EA8D05A4274E14E60000648A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D05A3274E14E60000648A /* Model.swift */; };
+		EA8D05A4274E14E60000648A /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D05A3274E14E60000648A /* Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		EA8D0599274DFFD80000648A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA8D059B274DFFD80000648A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA8D05A1274E14D10000648A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		EA8D05A3274E14E60000648A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EA8D05A3274E14E60000648A /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		EA8D05A5274E14EB0000648A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EA8D05A3274E14E60000648A /* Model.swift */,
+				EA8D05A3274E14E60000648A /* Animation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA8D05A4274E14E60000648A /* Model.swift in Sources */,
+				EA8D05A4274E14E60000648A /* Animation.swift in Sources */,
 				EA8D0592274DFFD80000648A /* AnimationViewController.swift in Sources */,
 				EA8D05A2274E14D10000648A /* DataManager.swift in Sources */,
 				EA8D058E274DFFD80000648A /* AppDelegate.swift in Sources */,
